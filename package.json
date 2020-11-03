@@ -1,0 +1,23 @@
+{
+  "name": "semana-js-expert",
+  "version": "1.0.0",
+  "description": "Semana JS Expert - Experimento Netflix Bandersnatch",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniofilho/semana-js-expert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniofilho/semana-js-expert/issues"
+  },
+  "homepage": "https://github.com/daniofilho/semana-js-expert#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
